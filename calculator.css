@@ -5,31 +5,17 @@ body {
     background-color: #f0f0f0;
 }
 
-/* styling the input bar */
-.calculator{
+/* Style the calculator container */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-.input_wrapper input{
-    font-size: 3rem;
-    
-}
-#display{
-    margin:20px auto;
-    
-    width: 100%;
-    
-}
-/* Style the calculator container */
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    
 }
 
 button {
