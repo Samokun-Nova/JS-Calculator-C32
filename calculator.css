@@ -9,6 +9,9 @@ input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
+    border-radius: 15px;
+    color: red;
+    background-color: rgba(0, 132, 255, 0.322);
 }
 
 button {
@@ -16,4 +19,6 @@ button {
     height: 45px;
     font-size: 18px;
     margin: 5px;
+    color: red;
+    background-color: aqua;
 }
