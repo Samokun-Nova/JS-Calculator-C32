@@ -1,24 +1,85 @@
 .calculator {
-    width: 200px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px;
-}
+  width: 370px;
+  height: 520px;
+  background-color: rgba(224, 230, 238, 0.459);
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 10px solid rgb(211, 201, 201);
+};
+.input {
+  width: 345px;
+  height: 100px;
+  margin-block-start: 10px;
+  margin-inline-start: 6px;
+  border-radius: 15px;
+  background-color: white;
+  border: 5px solid rgb(238, 226, 226);
+};
 
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 15px;
-    color: red;
-    background-color: rgba(0, 132, 255, 0.322);
-}
+#display {
+    font-size: 40px;
+    color:blueviolet;
+};
 
 button {
-    width: 45px;
-    height: 45px;
-    font-size: 18px;
-    margin: 5px;
-    color: red;
-    background-color: aqua;
-}
+  width: 70px;
+  height: 65px;
+  margin: 5px;
+  color: red;
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+};
+
+button.colorStyle {
+  background-color: gainsboro;
+};
+
+.firstRow {
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
+  margin-inline-start: 22px;
+};
+
+.secondRow {
+  margin-inline-start: 20px;
+};
+.thirdRow {
+  margin-inline-start: 20px;
+};
+.fourthRow {
+  margin-inline-start: 20px;
+};
+.fifthRow {
+  margin-inline-start: 20px;
+  margin-block-start: -75px;
+};
+.clear {
+  background-color: rgb(207, 78, 127);
+  color: aqua;
+};
+.plus {
+  margin-inline-start: 272px;
+  margin-block-start: -6px;
+};
+.minus {
+  background-color: aqua;
+};
+.division {
+  background-color: aqua;
+};
+.multiply {
+  background-color: aqua;
+};
+.equal {
+  background-color: rgb(233, 35, 68);
+  color: aqua;
+};
+
+#plus {
+  height: 140px;
+  margin-block-start: -100px;
+  background-color: aqua;
+};
